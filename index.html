@@ -9,12 +9,19 @@
 </head>
 
 <body>
-<div id="nav">
+
+
+<div id="nav" class="nav">
+    <div class="child" id='navbar-title'>
+        Navbar
+    </div>
+    <div class="toggle-navigation">
+        <span class="toggle-line"> </span>    
+        <span class="toggle-line"> </span>    
+        <span class="toggle-line"> </span>    
+    </div>
     <div class= "container" >
         <ul class="container">
-            <li class="child" id='title'>
-                Navbar
-            </li>
             <li class="child" id="home">
                 Home
             </li>
@@ -32,7 +39,7 @@
 
     <form>
         <div class= "container">
-        <input type="text" value="  search" class="search-box" id='search-row-child'> 
+        <input type="text" placeholder="  search" class="search-box" id='search-row-child'> 
             <div class="child">
                 <button id="search-button">search</button>
             </div>
@@ -40,20 +47,18 @@
     </form> 
 </div>
 
-
-<div id="hello-parent">
-    <div id="hello-general-div">
-        <h1 id="hello-title">Hello, world!</h1>
-        <p class="child" id="paragrph">
+<div id="hello-parent" class="hello-parent">
+    <!-- <div id="hello-general-div" ,class="hello-general-div"> -->
+        <h1 class="hello-title">Hello, world!</h1>
+        <p class="child paragrph-hello">
             This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use
             it as a starting point to create something more unique.
         </p>
-        <button id="learn-more-button">
+        <button class="learn-more-button">
             Learn more »
         </button>
-    </div>
+    <!-- </div> -->
 </div>
-
 
 <div class= "heading-general-div" > 
     
@@ -72,42 +77,32 @@
     
     <div class="box-1" >
         <div class="box-heading" >Heading </div>
-
+        <div class="para">
             Donec id elit non mi porta gravida at eget metus.
             Fusce dapibus, tellus ac cursus commodo, tortor
             mauris condimentum nibh, ut fermentum massa justo
             sit amet risus. Etiam porta sem malesuada magna
             mollis euismod. Donec sed odio dui.
-
-        
-            <button class="button-1">View details »</button>
-            
         </div>
+        <button class="button-1">View details »</button>
+
+    </div>
         
         <div class="box-1" >
             <div class="box-heading"> Heading </div>
-
+            <div class="para">
             Donec id elit non mi porta gravida at eget metus.
             Fusce dapibus, tellus ac cursus commodo, tortor
             mauris condimentum nibh, ut fermentum massa justo
             sit amet risus. Etiam porta sem malesuada magna
             mollis euismod. Donec sed odio dui.
-
-        
-        <button class="button-1">View details »</button>
-        
-    </div>
-    <!-- <div> © Company 2017-2018</div> -->
+            </div>
+            <button class="button-1">View details »</button>
+            
+        </div>
 </div>
+
 <div class ="company"> © Company 2017-2018</div>        
-
-   
-
-
-    
-
-
-
 
 </body>
 </html>
